@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>KEERTHANA'S ENGLISH PORTFOLIO</title>
+
+  <!-- Transparent box code -->
+  <style>
+  div.background {
+    background: url(images/y.jpg) repeat;
+    border: 2px solid black;
+  }
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    font-size: 25px;
+  }
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  </style>
+</head>
+
+<!-- CSS reference -->
+<link rel = "stylesheet" type="text/css"href = "style1.css"/>
+<link rel="stylesheet" href="style1.css">
+
+
+<body style="background-color: #E7E2DC;">
+    <!-- Home Icon -->
+    <a href="index.html"><img src="images\home.png" style="width:50px;height:50px;" ></img></a>
+
+    <div class="background">
+        <div class="transbox">
+            <p>Question 1.<br>
+                Have you ever had to make a difficult choice (or do you think you will have difficult choices to make)? How will you make the choice (for what reasons)?<br>
+            </p>
+            <p>
+                <u>Ans.</u> Throughout our life, we all have to make many choices. Almost every day we make some or the other decision. Even I made many such choices but none of them are notable. Usually, the hard choices I make are deciding what to wear, what to do when bored, what to read, and so on. I am sure that there will be situations where making a decision will be tough. But I am certain that with patience and giving it a good thought, I will be able to make the right choice.
+            </p>
+        </div>
+    </div>
+
+    <div class="background">
+        <div class="transbox">
+            <p>Question 2.<br>
+                After you have made a choice do you always think about what might have been, or do you accept the reality?
+                <br>
+            </p>
+            <p>
+                <u>Ans.</u> It so happens that making a decision is usually not so easy. All the options might look quite fair but may not be. In most situations, once we pick a path, we can’t change it again. So, after making a decision there is no turning back. 
+                While taking any big decision, I follow the words that my grandfather told me. “Accept everything without expecting anything in return because no one knows what turn is our story is going to take. God will always be there to guide you. Keep faith in him. Everything will be fine.”                
+            </p>
+        </div>
+    </div>
+
+      <!-- Go to top button -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script>
+         //Get the button
+         var mybutton = document.getElementById("myBtn");
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>KEERTHANA'S ENGLISH PORTFOLIO</title>
+
+  <!-- Transparent box code -->
+  <style>
+  div.background {
+    background: url(images/y.jpg) repeat;
+    border: 2px solid black;
+  }
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    font-size: 25px;
+  }
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  </style>
+</head>
+
+<!-- CSS reference -->
+<link rel = "stylesheet" type="text/css"href = "style1.css"/>
+<link rel="stylesheet" href="style1.css">
+
+
+<body style="background-color: #E7E2DC;">
+    <!-- Home Icon -->
+    <a href="index.html"><img src="images\home.png" style="width:50px;height:50px;" ></img></a>
+
+    <div class="background">
+        <div class="transbox">
+            <p>Question 1.<br>
+                Have you seen anybody winnow grain at home or in a paddy field? What is the word in your language for winnowing? What do people use for winnowing? <br>
+            </p>
+            <p>
+                <u>Ans.</u> No, I have never seen anybody winnow grain. Toorparabattadam is the word used for winnowing in telugu.<br>The process of separating heavier and lighter components of a mixture by wind or by blowing air is called winnowing. This method is used by farmers to separate lighter husk particles from heavier seeds of grain.
+            </p>
+        </div>
+    </div>
+
+    <div class="background">
+        <div class="transbox">
+            <p>Question 2.<br>
+                The poem you have just read is originally in Tamil. Do you know any such poems in your language?
+                <br>
+            </p>
+            <p>
+                <u>Ans.</u><br> A Dream <br>
+                <i>
+                    She lay there, her limbs<br>
+                    Drawn close like a puppy.<br>
+                    Summer may pass her or<br>
+                    Rain or cold winter winds .<br><br>
+                    <img src="images/dream.jpg"width = 250 height = 270 style="float: right; opacity: 1.0;filter: brightness(200%);"></img>
+                    But a late arrival spring<br>
+                    Is still sitting at her feet<br>
+                    Like a dream gathered<br>
+                    In a cloth bundle, someone<br>
+                    Forgot to take with him.<br>
+                </i><br>
+                ----Telugu poem by Siva Reddy
+            </p>
+        </div>
+    </div>
+
+      <!-- Go to top button -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script>
+         //Get the button
+         var mybutton = document.getElementById("myBtn");
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>
+
+</body>
+</html>

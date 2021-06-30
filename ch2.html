@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>KEERTHANA'S ENGLISH PORTFOLIO</title>
+
+  <!-- Transparent box code -->
+  <style>
+  div.background {
+    background: url(images/y.jpg) repeat;
+    border: 2px solid black;
+  }
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    font-size: 25px;
+  }
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  </style>
+</head>
+
+<!-- CSS reference -->
+<link rel = "stylesheet" type="text/css"href = "style1.css"/>
+<link rel="stylesheet" href="style1.css">
+
+
+<body style="background-color: #E7E2DC;">
+    <!-- Home Icon -->
+    <a href="index.html"><img src="images\home.png" style="width:50px;height:50px;" ></img></a>
+
+    <div class="background">
+        <div class="transbox">
+            <p>Question<br>
+                “If you work hard and know where you’re going, you’ll get there,” says Evelyn Glennie. You have now read about two musicians, Evelyn Glennie and Ustad Bismillah Khan. Do you think that they both worked hard? Where did they want to ‘go’? Answer these questions in two paragraphs, one on each of the two musicians.<br>
+            </p>
+            <p>
+                <u>Ans.</u>Though Evelyn Glennie was deaf, this didn’t stop her from following her dreams. She was determined to lead a normal life and pursue her interest in music. She admitted that she had to work often harder than a classical musician. While as a young girl, Evelyn noticed a girl playing the xylophone. She decided there and then that she wanted to play it too. And she became what we know her today. One of the most famous musicians. She worked hard and got the Royal Philharmonic Society’s prestigious Soloist of the Year Award in 1991. She accomplished more than most people twice her age.
+            </p>
+            <p>Ustad Bismillah Khan belongs to a well-known family of musicians from Bihar. He took to music early in life. He used to sit practising throughout the day. He would sit at the banks of the Ganga and practise in solitude. He felt inspired by the Ganga to invent new ragas. He gave many memorable performances in India and abroad. He practised hard and reached his destination in 2001 when he was awarded India’s highest civilian award, the Bharat Ratna.</p>
+        </div>
+        <img src="images\evelyn.png" style="width:250px;height:200px;" class="center"></img>
+        <img src="images\bismillah.jpg" style="width:200px;height:200px;" class="center"></img>
+    </div>
+
+
+      <!-- Go to top button -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script>
+         //Get the button
+         var mybutton = document.getElementById("myBtn");
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>
+
+</body>
+</html>
